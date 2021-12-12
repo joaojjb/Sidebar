@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <title>Sidebar</title>
+    </head>
+    <body>
+        <nav class="sidebar">
+            <div class="logoContent">
+                <div class="logoImg">
+                    <img id="logo" src="./images/logo.svg" alt="imagem da logo">
+                </div>
+                <i id="menuBtn">
+                    <img src="./images/menu.svg" alt="botão para abrir o menu" id="close">
+                </i>
+            </div>
+            <ul class="navList">
+                <li class="searchInput">
+                    <img id="search"src="./images/search.svg" alt="botão de pesquisa">
+                    <input type="text" placeholder="Pesquisar...">
+                </li>
+                <li class="menuOpt">
+                    <a href="#" class="">
+                        <img src="./images/grid.svg" alt="botão que vai para o dashboard">
+                        <span class="writeMenu">Dashboard</span>
+                    </a>
+                </li>
+                <li class="menuOpt">
+                    <a href="#">
+                        <img src="./images/pet.svg" alt="botão para os pets">
+                        <span class="writeMenu">Pets</span>
+                    </a>
+                </li> 
+                <li class="menuOpt">
+                    <a href="#">
+                        <img src="./images/user.svg" alt="botão para ir aos clientes">
+                        <span class="writeMenu">Clientes</span>
+                    </a>
+                </li>
+                <li class="menuOpt">
+                    <a href="#">
+                        <img src="./images/vet.svg" alt="botão para ir aos veterinários">
+                        <span class="writeMenu">Vets</span>
+                    </a>
+                </li>
+                <li class="menuOpt">
+                    <a href="#">
+                        <img src="./images/settings.svg" alt="botão para as configurações">
+                        <span class="writeMenu">Ajustes</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="profileContent">
+                <div class="profile">
+                    <div class="profileDetails">
+                        <img id="profileImg" src="./images/photo.jpg" alt="foto de perfil">
+                        <div class="profileInf">
+                            <div class="name">Eleanor</div>
+                            <div class="job">Veterinária</div>
+                        </div>
+                    </div>
+                    <img src="./images/log-out.svg" alt="botão para deslogar" id="logOut">
+                </div>
+            </div>
+        </nav>
+        <div class="dashboard">
+            <div class="text">Dashboard</div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
+            
+                       
+                     
+    
+               
+           
